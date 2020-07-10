@@ -17,7 +17,7 @@
     align-items: center;
     position: relative;
     z-index: 2;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 3px 5px 0 rgba(131, 129, 129, 0.432);
     padding: 5px;
   }
   
@@ -28,8 +28,11 @@
   .logo-nav {
     width: 40px;
     margin-top: 10px;
-    
     filter: drop-shadow(0 0 0 rgb(1, 109, 250));
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #5ab8f7, #040270);
   }
   
   .nav-options {
@@ -45,12 +48,81 @@
     font-size: 1.4rem;
     font-weight: 900;
   }
+
+  .nav-options a {
+    text-decoration: none;
+    color: black;
+  }
   
   .nav-options a:hover {
     text-decoration: underline;
     color: #ec5242;
   }
 
+  /* Universal Settins */
+
+  .width-551 {
+    width: 551px;
+  }
+
+  .color-orange {
+    color: #ec5242;
+  }
+
+  .stayUp {
+    z-index: 2;
+    position: relative;
+  }
+
+  .font-cocogoose {
+    font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif; 
+  }
+
+  .setMargin {
+    margin: 0 auto 5px 15%;
+    font-size: 2rem;
+  }
+
+
+  /*Introducction Section*/
+
+  .introduction {
+    background-image: url(../img/aiintroImage.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+  }
+
+  .introduction h1 {
+    opacity: 90%;
+    font-weight: 800;
+    padding-top: 30px;
+    margin: 0 auto 0 15%;
+    font-size: 4rem;
+  }
+
+  .layoverBlack {
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+  }
+
+  .shortNote {
+    padding: 20px;
+    font-size: 1.2rem;
+    background: rgba(45, 181, 235, 0.4);
+    border: 2px solid;
+    text-align: justify;
+    color: #fff;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #5ab8f7, #040270);
+  }
 
 
 
@@ -61,7 +133,7 @@
       overflow-x: hidden;
     }
   
-    .width-500 {
+    .width-551 {
       width: 90%;
     }
   
