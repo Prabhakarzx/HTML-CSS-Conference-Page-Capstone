@@ -12,6 +12,11 @@
     border: 1px #ec5242 solid;
   }
 
+  section h3 {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
   .navbar {
     padding: 0;
   }
@@ -212,8 +217,22 @@
 
  /* Speakers Section Styling */
 
- .speakers {
-   
+ .speakersInfo {
+   align-content: center;
+   margin-bottom: 40px;
+
+ }
+
+ .speakersInfo h3 {
+   margin: 0 auto;
+   padding-top: 30px;
+   text-align: center;
+   font-size: 1.6rem;
+ }
+
+ .totalSpeakers {
+   display: flex;
+   align-content: center;
  }
 
  
