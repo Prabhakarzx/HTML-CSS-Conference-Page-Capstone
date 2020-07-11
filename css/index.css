@@ -7,6 +7,11 @@
     font-family: 'lato', Arial, Helvetica, sans-serif !important;
   }
 
+  section hr {
+    width: 33px;
+    border: 1px #ec5242 solid;
+  }
+
   .navbar {
     padding: 0;
   }
@@ -70,7 +75,7 @@
   }
 
   .stayUp {
-    z-index: 2;
+    z-index: 9;
     position: relative;
   }
 
@@ -83,17 +88,20 @@
     font-size: 2rem;
   }
 
-
-  /*Introducction Section*/
-
-  .introduction {
-    background-image: url(../img/aiintroImage.png);
+  .bgCover {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    
+  }
+  
+
+
+  /*Introducction Section*/
+
+  .introduction {
+    background-image: url(../img/aiintroImage.png);
   }
 
   .introduction h1 {
@@ -121,8 +129,54 @@
     text-align: justify;
     color: #fff;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to left, #5ab8f7, #040270);
+    border-image-source:
+    linear-gradient(to left, #5ab8f7, #040270);
   }
+
+  .dateRange {
+    font-weight: 850;
+    color: #fff;
+  }
+
+  .Venue {
+    font-size: 1.4rem;
+    color: #fff;
+    padding-bottom: 90px;
+  }
+
+
+  /* Progam Information */
+
+  .programInfo {
+    background-image: url(../img/aiSummitProgram.jpeg);
+    text-align: center;
+    color: #fff;
+  }
+
+  .programInfoTitle {
+    margin: 0 auto;
+    padding-top: 28px;
+    font-size: 2rem;
+  }
+
+ .programDetials {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+ }
+
+ .programDetials article {
+   background: rgba(26, 24, 24, 0.301);
+   padding: 11px;
+   margin: 6px;
+   border-radius: 6px;
+   width: 18%;
+ }
+
+ .programDetials i {
+   margin: 5px auto;
+ }
 
 
 
