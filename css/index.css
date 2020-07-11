@@ -127,7 +127,7 @@
   }
 
   .layoverBlack-max {
-    background-color: rgba(0, 0, 0, 0.825);
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -163,7 +163,7 @@
   /* Progam Information */
 
   .programInfo {
-    background-image: url(../img/aiSummitProgram.jpeg);
+    background-image: url(../img/aimeet.png);
     text-align: center;
     color: #fff;
   }
@@ -232,7 +232,57 @@
 
  .totalSpeakers {
    display: flex;
-   align-content: center;
+  justify-content: center;
+ }
+
+ .speakersGroup {
+   margin: 11px;
+   width: 41%;
+
+ }
+
+ .speakersGroup hr{
+   margin-left: 0;
+ }
+
+ .speakersGroup article {
+
+  text-align: start;
+  display: flex;
+  margin-bottom: 40px;
+  background: url(../img/ai_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+
+ }
+
+ .speakersGroup article img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: transform 200ms ease-in 0s;
+
+ }
+
+
+
+
+ .speakerDetails {
+
+
+ }
+
+ .speakerName {
+  font-size: 1.3rem;
+ }
+
+ .speakerPosition {
+   font-style: italic;
+
+ }
+
+ .aboutSpeaker{
+  text-align: justify;
  }
 
  
