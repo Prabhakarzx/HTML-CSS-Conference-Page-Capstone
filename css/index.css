@@ -121,6 +121,15 @@
     top: 0;
   }
 
+  .layoverBlack-max {
+    background-color: rgba(0, 0, 0, 0.825);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+  }
+
   .shortNote {
     padding: 20px;
     font-size: 1.2rem;
@@ -142,6 +151,7 @@
     font-size: 1.4rem;
     color: #fff;
     padding-bottom: 90px;
+    margin-bottom: 0;
   }
 
 
@@ -156,27 +166,57 @@
   .programInfoTitle {
     margin: 0 auto;
     padding-top: 28px;
-    font-size: 2rem;
   }
 
- .programDetials {
+ .programDetails {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 40px;
  }
 
- .programDetials article {
-   background: rgba(26, 24, 24, 0.301);
-   padding: 11px;
-   margin: 6px;
-   border-radius: 6px;
-   width: 18%;
+ .programDetails article {
+   background: rgba(255, 255, 255, 0.1);
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+   width: 17%;
  }
 
  .programDetials i {
    margin: 5px auto;
  }
+
+ .programDetails article h5 {
+  margin: 15px auto 5px;
+  font-size: 1rem;
+ }
+
+ .programDetails article small {
+   text-align: justify;
+ }
+
+ .view-more-program {
+   margin-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ .view-more-program .all-program {
+   color: #fff;
+   text-transform: uppercase;
+ }
+
+ .view-more-program a:hover {
+   text-decoration:underline;
+ }
+
+ /* Speakers Section Styling */
+
+ .speakers {
+   
+ }
+
+ 
 
 
 
