@@ -7,6 +7,10 @@
     font-family: 'lato', Arial, Helvetica, sans-serif !important;
   }
 
+  footer * {
+    margin: 20px;
+}
+
   section hr {
     width: 33px;
     border: 1px #ec5242 solid;
@@ -112,7 +116,7 @@
   .introduction h1 {
     opacity: 90%;
     font-weight: 800;
-    padding-top: 30px;
+    padding-top: 70px;
     margin: 0 auto 0 15%;
     font-size: 4rem;
   }
@@ -127,7 +131,7 @@
   }
 
   .layoverBlack-max {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -155,7 +159,7 @@
   .Venue {
     font-size: 1.4rem;
     color: #fff;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
     margin-bottom: 0;
   }
 
@@ -219,7 +223,7 @@
 
  .speakersInfo {
    align-content: center;
-   margin-bottom: 40px;
+   margin-bottom: 0;
    background-image: url(../img/speakrs.jpg);
 
  }
@@ -247,7 +251,6 @@
  }
 
  .speakersGroup article {
-
   text-align: start;
   display: flex;
   margin-bottom: 40px;
@@ -276,10 +279,6 @@
   top: 0;
 }
 
-
-
-
-
  .speakerDetails {
 
 
@@ -298,9 +297,65 @@
   text-align: justify;
  }
 
+
+ /* Partners and sponcers Section */
+
+ .our-partners {
+   justify-content: center;
+   text-align: center;
+   background-color: #272a31;
+   display: flex;
+   color: #d3d3d3;
+   margin-top: 0;
+ }
+
+ .section-icon {
+   padding-top: 50px;
+   font-size: .5rem;
+ }
+
+ .our-partners h4 {
+  font-size: 1rem;
+ }
+
+ .our-partners h3 {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 1.6rem;
+ }
+
+ .partners-and-sponcers {
+   width: 40%;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+  
+ }
+
+ .partnerLogo {
+   padding: 12px;
+ }
+
+.partners-list {
+ padding-top: 40px;
+ padding-bottom: 50px;
+ display: flex;
+ justify-content: center;
  
+}
 
+body > footer {
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
+footer small {
+  font-size: 1.2rem;
+
+}
 
 
 
