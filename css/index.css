@@ -362,13 +362,15 @@ footer small {
   @media only screen and (max-width: 768px) {
     body {
       overflow-x: hidden;
+      margin: 0;
+      width: 100%;
     }
   
     .width-551 {
-      width: 90%;
+      width: 80%;
     }
   
-    .flex {
+    .flex-small {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -381,5 +383,18 @@ footer small {
   
     .nav-options li {
       margin: 10px;
+    }
+
+    .totalSpeakers {
+      width: 100%;
+      padding: 10%;
+    }
+
+    .setMargin {
+      margin: 0 0 0 10%;
+  }
+
+    .speakersGroup {
+      width: 100%;
     }
   }
