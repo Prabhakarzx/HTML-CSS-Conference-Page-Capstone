@@ -220,6 +220,7 @@
  .speakersInfo {
    align-content: center;
    margin-bottom: 40px;
+   background-image: url(../img/speakrs.jpg);
 
  }
 
@@ -261,8 +262,20 @@
   height: 100px;
   margin: 10px;
   transition: transform 200ms ease-in 0s;
+  border: 1px #42e0fc71 solid;
+  border-radius: 45px 0 45px 0;
 
  }
+
+ .layoverWhite {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
 
 
 
