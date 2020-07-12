@@ -4,19 +4,35 @@
     justify-content: center;
     text-align: center;
     align-content: center;
-    
 }
-
 
   .aboutIntro h1 {
     opacity: 90%;
     font-weight: 800;
     padding-top: 70px;
-    
     font-size: 4rem;
+  }
+
+  .aboutIntro h3 {
+      padding: 0;
+      margin: 0;
+      font-size: 2rem;
   }
 
   .shortNote{
       width: 50%;
-      margin: 10px 20px 10px 20px;
+      margin: 28px auto;
+     padding: 28px;
   }
+
+  .aboutIntro .pleaseContact {
+      color: #fff;
+      font-size: 1rem;
+      padding: 10px;
+  }
+
+  .aboutIntro .emailID {
+    color: #fff;
+    font-size: 1rem;
+    padding-bottom: 70px;
+}
