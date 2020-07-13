@@ -79,3 +79,71 @@
   font-size: 1.4rem;
   margin-top: 40px;
 }
+
+.prePrograms {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ }
+
+.prePrograms a {
+  text-decoration: none;
+}
+
+ .program-item {
+  height: 200px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+}
+
+ .programLink {
+   width: 32%;
+   margin: 1%;
+ }
+
+ 
+
+ .prePrograms .program1 {
+   background: url(../img/aimeet.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ .prePrograms .program2 {
+  background: url(../img/speakrs.jpg);
+
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+ .prePrograms a:hover {
+   border: 1.5px #ec5242 solid;
+   border-radius: 10px;
+ }
+
+ .layoverOrange {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 121, 106, 0.562);
+  z-index: 1;
+ }
+
+.prePrograms article h1 {
+  font-size: 3.5rem;
+}
+
+.programHeading {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  height: 100%;
+  flex-direction: column;
+  font-weight: 900;
+}

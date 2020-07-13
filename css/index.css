@@ -202,7 +202,7 @@
  }
 
  .programDetails article small {
-   text-align: justify;
+   display: inline-block;
  }
 
  .view-more-program {
