@@ -385,6 +385,18 @@ footer small {
       margin: 10px;
     }
 
+    .introduction h1 {
+    
+      font-weight: 500;
+      padding-top: 70px;
+      margin: 0 auto 0 10%;
+      font-size: 3rem;
+    }
+
+    .programDetails article {
+      width: 80%;
+    }
+
     .totalSpeakers {
       width: 100%;
       padding: 10%;

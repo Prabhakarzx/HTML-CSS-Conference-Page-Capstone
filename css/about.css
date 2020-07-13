@@ -37,3 +37,45 @@
     padding-bottom: 70px;
     font-weight: 800;
 }
+
+.aboutAI {
+  text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+   
+}
+
+.aboutAI .aboutheading {
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+
+.grayLine {
+  width: 100%;
+  color: #d3d3d3;
+}
+
+
+.aboutAI img{
+  height: 200px;
+  width: 200px;
+  margin: 20px 30%;
+  padding: 10px;
+  border: 1px #d3d3d3 solid;
+}
+
+.previousPrograms {
+  color: #000;
+  
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.previousPrograms .heading {
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
