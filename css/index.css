@@ -121,6 +121,19 @@
     font-size: 4rem;
   }
 
+  .introduction h3 {
+    padding-bottom:15px;
+  }
+
+  .dateRange {
+    padding-top: 50px;
+    font-size: 1.4rem;
+  }
+
+  .Venue {
+    padding-top: 15px;
+  }
+
   .layoverBlack {
     background-color: rgba(0, 0, 0, 0.616);
     position: absolute;
@@ -387,11 +400,29 @@ footer small {
     }
 
     .introduction h1 {
-    
       font-weight: 500;
       padding-top: 70px;
       margin: 0 auto 0 10%;
       font-size: 3rem;
+    }
+
+    .introduction h3 {
+      padding-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .shortNote {
+      font-size: 0.9rem;
+    }
+
+    .dateRange {
+      padding-top: 20px;
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+    }
+
+    .Venue {
+      font-size: 1.2rem;
     }
 
     .programDetails article {
@@ -409,5 +440,9 @@ footer small {
 
     .speakersGroup {
       width: 100%;
+    }
+
+    .speakerDetails h4 {
+      font-size: 1.2rem;
     }
   }
