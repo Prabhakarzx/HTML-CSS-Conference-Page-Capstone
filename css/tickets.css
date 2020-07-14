@@ -99,3 +99,19 @@ button:hover {
     color: #000000;
     font-weight: 100;
 }
+
+@media only screen and (max-width: 768px) {
+    .subHeading {
+        width: 90%;
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    .item {
+        font-size: 0.8rem;
+    }
+}
