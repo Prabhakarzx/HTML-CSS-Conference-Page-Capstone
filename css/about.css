@@ -1,6 +1,6 @@
 .aboutIntro{
 
-    background-image: url(../img/aiintroImage.png);
+    background-image: url(../img/aboutai.jpg);
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -50,6 +50,13 @@
 .aboutAI .aboutheading {
   font-size: 1.4rem;
   margin-top: 40px;
+}
+
+.subAbout {
+  border: 0;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto 20px;
 }
 
 .grayLine {
