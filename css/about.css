@@ -158,6 +158,27 @@
 @media only screen and (max-width: 768px) {
   .aboutIntro h1 {
     font-size: 3rem;
-   
   }
+
+  .aboutIntro h3 {
+    font-size: 1.6rem;
+  }
+
+  .shortNote {
+    width: 80%;
+  }
+
+  .pleaseContact {
+    font-size: 1rem;
+  }
+
+  .programLink {
+    width: 70%;
+  }
+
+  .aboutAI img {
+    margin: 10px auto 10%;
+  }
+
+
 }
