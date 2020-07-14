@@ -23,11 +23,11 @@ This project is focused on creating a responsive website with three pages by the
 
 ## Live Demo
 
-[Live Demo Index](https://rawcdn.githack.com/Rocio01/Using-Bootstrap/7f17872a78c8abf7a56cfebcab8d6643aa55f7ff/index.html)
+[Live Demo Index](https://raw.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/feature-branch/index.html)
 
-[Live Demo About]()
+[Live Demo About](https://raw.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/feature-branch/tickets.html)
 
-[Live Demo Tickets]()
+[Live Demo Tickets](https://raw.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/feature-branch/about.html)
 
 
 ### Prerequisites
