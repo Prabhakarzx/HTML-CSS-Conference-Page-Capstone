@@ -13,12 +13,15 @@
     margin-bottom: 30px;
 }
 
- small{
+.subHeading{
     font-size: 1.1rem;
     padding: 10px;
     border: 1px #d3d3d3 solid;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin: 10px auto 30px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
 }
 
 .ticket-container {
