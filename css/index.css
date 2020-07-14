@@ -175,6 +175,7 @@
   .programInfoTitle {
     margin: 0 auto;
     padding-top: 28px;
+    font-size: 1.3rem;
   }
 
  .programDetails {
@@ -232,7 +233,7 @@
    margin: 0 auto;
    padding-top: 30px;
    text-align: center;
-   font-size: 1.6rem;
+   font-size: 1.3rem;
  }
 
  .totalSpeakers {
