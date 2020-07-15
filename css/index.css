@@ -415,4 +415,8 @@ footer .copyright {
   .speakerDetails h4 {
     font-size: 1.2rem;
   }
+
+  footer .copyright {
+    font-size: 0.9rem;
+  }
 }
