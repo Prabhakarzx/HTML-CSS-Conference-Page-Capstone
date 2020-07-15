@@ -1,50 +1,50 @@
-.aboutIntro{
+.aboutIntro {
 
-    background-image: url(../img/aboutai.jpg);
-    justify-content: center;
-    text-align: center;
-    align-content: center;
+  background-image: url(../img/aboutai.jpg);
+  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
-  .aboutIntro h1 {
-    opacity: 90%;
-    font-weight: 800;
-    padding-top: 70px;
-    font-size: 4rem;
-  }
+.aboutIntro h1 {
+  opacity: 90%;
+  font-weight: 800;
+  padding-top: 70px;
+  font-size: 4rem;
+}
 
-  .aboutIntro h3 {
-      padding: 0;
-      margin: 0;
-      font-size: 2rem;
-  }
+.aboutIntro h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
 
-  .shortNote{
-      width: 50%;
-      margin: 28px auto;
-     padding: 28px;
-  }
+.shortNote {
+  width: 50%;
+  margin: 28px auto;
+  padding: 28px;
+}
 
-  .aboutIntro .pleaseContact {
-      color: #fff;
-      font-size: 1.2rem;
-      padding: 10px;
-  }
+.aboutIntro .pleaseContact {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+}
 
-  .aboutIntro .emailID {
-    color: #fff;
-    font-size: 1rem;
-    padding-bottom: 70px;
-    font-weight: 800;
+.aboutIntro .emailID {
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 70px;
+  font-weight: 800;
 }
 
 .aboutAI {
   text-align: center;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 30px;
-   
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+
 }
 
 .aboutAI .aboutheading {
@@ -65,7 +65,7 @@
 }
 
 
-.aboutAI img{
+.aboutAI img {
   height: 200px;
   width: 200px;
   margin: 20px 30%;
@@ -75,7 +75,7 @@
 
 .previousPrograms {
   color: #000;
-  
+
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -92,46 +92,46 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
- }
+}
 
 .prePrograms a {
   text-decoration: none;
 }
 
- .program-item {
+.program-item {
   height: 200px;
   box-sizing: border-box;
   position: relative;
   border-radius: 10px;
 }
 
- .programLink {
-   width: 32%;
-   margin: 1%;
- }
+.programLink {
+  width: 32%;
+  margin: 1%;
+}
 
- 
 
- .prePrograms .program1 {
-   background: url(../img/aimeet.png);
+
+.prePrograms .program1 {
+  background: url(../img/aimeet.png);
 
   background-size: cover;
   background-repeat: no-repeat;
- }
-
- .prePrograms .program2 {
-  background: url(../img/speakrs.jpg);
-
- background-size: cover;
- background-repeat: no-repeat;
 }
 
- .prePrograms a:hover {
-   border: 1.5px #ec5242 solid;
-   border-radius: 10px;
- }
+.prePrograms .program2 {
+  background: url(../img/speakrs.jpg);
 
- .layoverOrange {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prePrograms a:hover {
+  border: 1.5px #ec5242 solid;
+  border-radius: 10px;
+}
+
+.layoverOrange {
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -139,7 +139,7 @@
   width: 100%;
   background: rgba(255, 121, 106, 0.562);
   z-index: 1;
- }
+}
 
 .prePrograms article h1 {
   font-size: 3.5rem;

@@ -1,19 +1,19 @@
 .seclectTicket {
     text-align: center;
-  background-color: #f0f0f0;
-  padding-bottom: 40px;
+    background-color: #f0f0f0;
+    padding-bottom: 40px;
 }
 
- .heading{
+.heading {
     font-size: 1.4rem;
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 .hrline {
     margin-bottom: 30px;
 }
 
-.subHeading{
+.subHeading {
     font-size: 1.1rem;
     padding: 10px;
     border: 1px #d3d3d3 solid;
