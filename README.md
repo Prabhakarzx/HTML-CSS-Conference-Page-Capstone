@@ -23,7 +23,7 @@ This project is focused on creating a responsive website with three pages by the
 
 ## Live Demo
 
-[Live Demo Index](https://raw.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/feature-branch/index.html)
+[Live Demo Index](https://rawcdn.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/ce13b5ebcd5fac833f56e41031f4e1cb08c2d2b5/index.html)
 
 [Live Demo About](https://raw.githack.com/Prabhakarzx/HTML-CSS-Conference-Page-Capstone/feature-branch/tickets.html)
 
