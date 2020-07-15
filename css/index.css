@@ -105,16 +105,14 @@ section h3 {
   position: relative;
 }
 
-
-
-/*Introducction Section*/
+/* Introducction Section */
 
 .introduction {
   background-image: url(../img/aiintroImage.png);
 }
 
 .introduction h1 {
-  opacity: 90%;
+  opacity: 0.9;
   font-weight: 800;
   padding-top: 70px;
   margin: 0 auto 0 15%;
@@ -128,10 +126,8 @@ section h3 {
 .dateRange {
   padding-top: 50px;
   font-size: 1.4rem;
-}
-
-.Venue {
-  padding-top: 15px;
+  font-weight: 850;
+  color: #fff;
 }
 
 .layoverBlack {
@@ -160,17 +156,12 @@ section h3 {
   text-align: justify;
   color: #fff;
   border-image-slice: 1;
-  border-image-source:
-    linear-gradient(to left, #5ab8f7, #040270);
-}
-
-.dateRange {
-  font-weight: 850;
-  color: #fff;
+  border-image-source: linear-gradient(to left, #5ab8f7, #040270);
 }
 
 .Venue {
   font-size: 1.4rem;
+  padding-top: 15px;
   color: #fff;
   padding-bottom: 70px;
   margin-bottom: 0;
@@ -239,7 +230,6 @@ section h3 {
   align-content: center;
   margin-bottom: 0;
   background-image: url(../img/speakrs.jpg);
-
 }
 
 .speakersInfo h3 {
@@ -281,7 +271,6 @@ section h3 {
   transition: transform 200ms ease-in 0s;
   border: 1px #42e0fc71 solid;
   border-radius: 45px 0 45px 0;
-
 }
 
 .layoverWhite {
@@ -293,21 +282,17 @@ section h3 {
   top: 0;
 }
 
-.speakerDetails {}
-
 .speakerName {
   font-size: 1.3rem;
 }
 
 .speakerPosition {
   font-style: italic;
-
 }
 
 .aboutSpeaker {
   text-align: justify;
 }
-
 
 /* Partners and sponcers Section */
 
@@ -322,7 +307,7 @@ section h3 {
 
 .section-icon {
   padding-top: 50px;
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 .our-partners h4 {
@@ -340,7 +325,6 @@ section h3 {
   display: flex;
   text-align: center;
   flex-direction: column;
-
 }
 
 .partnerLogo {
@@ -352,10 +336,9 @@ section h3 {
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
-
 }
 
-body>footer {
+body > footer {
   background-color: #d3d3d3;
   display: flex;
   align-items: center;
@@ -363,12 +346,9 @@ body>footer {
   padding: 20px;
 }
 
-footer small {
+footer .copyright {
   font-size: 1.2rem;
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
   body {
@@ -416,10 +396,6 @@ footer small {
     padding-top: 20px;
     font-size: 1.5rem;
     padding-bottom: 10px;
-  }
-
-  .Venue {
-    font-size: 1.2rem;
   }
 
   .programDetails article {
