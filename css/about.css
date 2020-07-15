@@ -100,6 +100,7 @@
   position: relative;
   border-radius: 10px;
 }
+
 .programLink {
   width: 32%;
   margin: 1%;
@@ -140,7 +141,6 @@
   color: #fff;
   display: flex;
   justify-content: center;
-  color: #fff;
   height: 100%;
   flex-direction: column;
   font-weight: 900;

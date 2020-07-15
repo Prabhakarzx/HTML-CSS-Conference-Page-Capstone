@@ -167,7 +167,6 @@ section h3 {
   margin-bottom: 0;
 }
 
-
 /* Progam Information */
 
 .programInfo {
@@ -247,7 +246,6 @@ section h3 {
 .speakersGroup {
   margin: 11px;
   width: 41%;
-
 }
 
 .speakersGroup hr {
@@ -261,7 +259,6 @@ section h3 {
   background: url(../img/ai_bg.jpg);
   background-repeat: no-repeat;
   background-size: 3rem;
-
 }
 
 .speakersGroup article img {

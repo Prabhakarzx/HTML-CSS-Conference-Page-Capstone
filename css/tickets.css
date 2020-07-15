@@ -1,117 +1,115 @@
 .seclectTicket {
-    text-align: center;
-    background-color: #f0f0f0;
-    padding-bottom: 40px;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding-bottom: 40px;
 }
 
 .heading {
-    font-size: 1.4rem;
-    padding-top: 40px;
+  font-size: 1.4rem;
+  padding-top: 40px;
 }
 
 .hrline {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .subHeading {
-    font-size: 1.1rem;
-    padding: 10px;
-    border: 1px #d3d3d3 solid;
-    border-radius: 15px;
-    margin: 10px auto 30px;
-    display: flex;
-    width: 50%;
-    justify-content: center;
+  font-size: 1.1rem;
+  padding: 10px;
+  border: 1px #d3d3d3 solid;
+  border-radius: 15px;
+  margin: 10px auto 30px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
 
 .ticket-container {
-    margin: 40px auto 100px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 30px 30px 50px 50px;
-    width: 75%;
-    align-items: center;
-    border: 5px solid;
-    border-image: linear-gradient(35deg, #272a31, #d3d3d3, #ec5242) 83 round;
+  margin: 40px auto 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 30px 30px 50px 50px;
+  width: 75%;
+  align-items: center;
+  border: 5px solid;
+  border-image: linear-gradient(35deg, #272a31, #d3d3d3, #ec5242) 83 round;
 }
 
 .item {
-    margin: 0;
-    height: 100%;
-    border: 1px #d3d3d3 solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  height: 100%;
+  border: 1px #d3d3d3 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
 .boldFont {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .orange {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 .foodSelection {
-    text-align: center;
-    background-color: #fff;
-    padding-bottom: 40px;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 40px;
 }
 
 .food {
-    margin: 30px auto 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30px 50px;
-    width: 75%;
-    align-items: center;
-    border: 1px #d3d3d3 solid;
+  margin: 30px auto 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px 50px;
+  width: 75%;
+  align-items: center;
+  border: 1px #d3d3d3 solid;
 }
 
 .span-3 {
-    grid-column: span 3;
+  grid-column: span 3;
 }
 
 .food .title {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .food .item {
-    border: 0;
+  border: 0;
 }
 
 button {
-    color: #fff;
-    background-color: #ec5242;
-    border: 1px #ec5242 solid;
-    border-radius: 8px;
-    font-weight: 900;
-    font-size: 1.3rem;
-    padding: 10px;
+  color: #fff;
+  background-color: #ec5242;
+  border: 1px #ec5242 solid;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding: 10px;
 }
 
 button:hover {
-    background-color: #2cfc59;
-    border: #2cfc59;
-    color: #000000;
-    font-weight: 100;
+  background-color: #2cfc59;
+  border: #2cfc59;
+  color: #000;
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 768px) {
-    .subHeading {
-        width: 90%;
-        font-size: 0.9rem;
-        padding: 5px;
-    }
+  .subHeading {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
 
-    .heading {
-        font-size: 1.2rem;
-    }
+  .heading {
+    font-size: 1.2rem;
+  }
 
-    .item {
-        font-size: 0.8rem;
-    }
+  .item {
+    font-size: 0.8rem;
+  }
 }
