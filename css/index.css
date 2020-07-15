@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Cocogoose Pro trial';
-  src: url('../fonts/Cocogoose\ Pro-trial.ttf');
+  font-family: 'cocogoose pro regular';
+  src: url('../fonts/cocogoose-pro.regular.ttf');
 }
 
 body {
@@ -89,7 +89,7 @@ section h3 {
 }
 
 .font-cocogoose {
-  font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
+  font-family: 'cocogoose pro regular', Arial, Helvetica, sans-serif;
 }
 
 .setMargin {
