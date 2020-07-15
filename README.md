@@ -13,7 +13,7 @@ This project is focused on creating a responsive website with three pages by the
 ![screenshot](./img/NationalAiIndexMobile.png)
 
 ## Small Screen Screenshot About Page
-![screenshot](./img/NationalAiAboutMobile.png)
+![screenshot](./img/AIsummitAboutMob.png)
 
 ## Built With
 
