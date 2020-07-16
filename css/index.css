@@ -171,7 +171,6 @@ section h3 {
 
 .programInfo {
   background-image: url(../img/aimeet.png);
-  text-align: center;
   color: #fff;
 }
 
@@ -184,7 +183,6 @@ section h3 {
 .programDetails {
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
   margin-top: 40px;
 }
 
@@ -238,11 +236,6 @@ section h3 {
   font-size: 1.3rem;
 }
 
-.totalSpeakers {
-  display: flex;
-  justify-content: center;
-}
-
 .speakersGroup {
   margin: 11px;
   width: 41%;
@@ -294,8 +287,6 @@ section h3 {
 /* Partners and sponcers Section */
 
 .our-partners {
-  justify-content: center;
-  text-align: center;
   background-color: #272a31;
   display: flex;
   color: #d3d3d3;
@@ -317,10 +308,9 @@ section h3 {
   font-size: 1.6rem;
 }
 
-.partners-and-sponsers {
+.partners-and-sponsors {
   width: 40%;
   display: flex;
-  text-align: center;
   flex-direction: column;
 }
 
@@ -331,8 +321,6 @@ section h3 {
 .partners-list {
   padding-top: 40px;
   padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
 }
 
 body > footer {
@@ -414,6 +402,22 @@ footer .copyright {
 
   .speakerDetails h4 {
     font-size: 1.2rem;
+  }
+
+  .partners-and-sponsors {
+    font-size: 0.6rem;
+  }
+
+  .section-icon {
+    padding-top: 30px;
+  }
+
+  .partnerLogo {
+    padding: 10px;
+  }
+
+  .partners-list {
+    padding: 0;
   }
 
   footer .copyright {

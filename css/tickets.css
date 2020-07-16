@@ -1,5 +1,4 @@
 .seclectTicket {
-  text-align: center;
   background-color: #f0f0f0;
   padding-bottom: 40px;
 }
@@ -21,7 +20,6 @@
   margin: 10px auto 30px;
   display: flex;
   width: 50%;
-  justify-content: center;
 }
 
 .ticket-container {
@@ -54,7 +52,6 @@
 }
 
 .foodSelection {
-  text-align: center;
   background-color: #fff;
   padding-bottom: 40px;
 }

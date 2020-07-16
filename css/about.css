@@ -1,7 +1,5 @@
 .aboutIntro {
   background-image: url(../img/aboutai.jpg);
-  justify-content: center;
-  text-align: center;
   align-content: center;
 }
 
@@ -38,10 +36,8 @@
 }
 
 .aboutAI {
-  text-align: center;
   color: rgb(0, 0, 0);
   align-items: center;
-  justify-content: center;
   padding-bottom: 30px;
 }
 
@@ -52,8 +48,6 @@
 
 .subAbout {
   border: 0;
-  text-align: center;
-  justify-content: center;
   margin: 10px auto 20px;
 }
 
@@ -72,9 +66,7 @@
 
 .previousPrograms {
   color: #000;
-  text-align: center;
   align-content: center;
-  justify-content: center;
   padding-bottom: 30px;
 }
 
@@ -86,7 +78,6 @@
 .prePrograms {
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
   margin-top: 40px;
 }
 
