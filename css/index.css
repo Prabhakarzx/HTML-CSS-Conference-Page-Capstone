@@ -1,0 +1,426 @@
+@font-face {
+  font-family: 'cocogoose pro regular';
+  src: url('../fonts/cocogoose-pro.regular.ttf');
+}
+
+body {
+  font-family: 'lato', Arial, Helvetica, sans-serif !important;
+}
+
+footer * {
+  margin: 20px;
+}
+
+section hr {
+  width: 33px;
+  border: 1px #ec5242 solid;
+}
+
+section h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 3px 5px 0 rgba(131, 129, 129, 0.432);
+  padding: 5px;
+}
+
+.navbar-toggler {
+  margin: 10px;
+}
+
+.logo-nav {
+  width: 40px;
+  margin-top: 10px;
+  filter: drop-shadow(0 0 0 rgb(1, 109, 250));
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #5ab8f7, #040270);
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-options li {
+  margin-right: 50px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.nav-options a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-options a:hover {
+  text-decoration: underline;
+  color: #ec5242;
+}
+
+/* Universal Settins */
+
+.width-551 {
+  width: 551px;
+}
+
+.color-orange {
+  color: #ec5242;
+}
+
+.stayUp {
+  z-index: 9;
+  position: relative;
+}
+
+.font-cocogoose {
+  font-family: 'cocogoose pro regular', Arial, Helvetica, sans-serif;
+}
+
+.setMargin {
+  margin: 0 auto 5px 15%;
+  font-size: 2rem;
+}
+
+.bgCover {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Introducction Section */
+
+.introduction {
+  background-image: url(../img/aiintroImage.png);
+}
+
+.introduction h1 {
+  opacity: 0.9;
+  font-weight: 800;
+  padding-top: 70px;
+  margin: 0 auto 0 15%;
+  font-size: 4rem;
+}
+
+.introduction h3 {
+  padding-bottom: 15px;
+}
+
+.dateRange {
+  padding-top: 50px;
+  font-size: 1.4rem;
+  font-weight: 850;
+  color: #fff;
+}
+
+.layoverBlack {
+  background-color: rgba(0, 0, 0, 0.616);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.layoverBlack-max {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.shortNote {
+  padding: 20px;
+  font-size: 1.2rem;
+  background: rgba(45, 181, 235, 0.4);
+  border: 2px solid;
+  text-align: justify;
+  color: #fff;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #5ab8f7, #040270);
+}
+
+.Venue {
+  font-size: 1.4rem;
+  padding-top: 15px;
+  color: #fff;
+  padding-bottom: 70px;
+  margin-bottom: 0;
+}
+
+/* Progam Information */
+
+.programInfo {
+  background-image: url(../img/aimeet.png);
+  color: #fff;
+}
+
+.programInfoTitle {
+  margin: 0 auto;
+  padding-top: 28px;
+  font-size: 1.3rem;
+}
+
+.programDetails {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 40px;
+}
+
+.programDetails article {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 17%;
+}
+
+.programDetials i {
+  margin: 5px auto;
+}
+
+.programDetails article h5 {
+  margin: 15px auto 5px;
+  font-size: 1rem;
+}
+
+.programDetails article small {
+  display: inline-block;
+}
+
+.view-more-program {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.view-more-program .all-program {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.view-more-program a:hover {
+  text-decoration: underline;
+}
+
+/* Speakers Section Styling */
+
+.speakersInfo {
+  align-content: center;
+  margin-bottom: 0;
+  background-image: url(../img/speakrs.jpg);
+}
+
+.speakersInfo h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.speakersGroup {
+  margin: 11px;
+  width: 41%;
+}
+
+.speakersGroup hr {
+  margin-left: 0;
+}
+
+.speakersGroup article {
+  text-align: start;
+  display: flex;
+  margin-bottom: 40px;
+  background: url(../img/ai_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+}
+
+.speakersGroup article img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: transform 200ms ease-in 0s;
+  border: 1px #42e0fc71 solid;
+  border-radius: 45px 0 45px 0;
+}
+
+.layoverWhite {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.speakerName {
+  font-size: 1.3rem;
+}
+
+.speakerPosition {
+  font-style: italic;
+}
+
+.aboutSpeaker {
+  text-align: justify;
+}
+
+/* Partners and sponcers Section */
+
+.our-partners {
+  background-color: #272a31;
+  display: flex;
+  color: #d3d3d3;
+  margin-top: 0;
+}
+
+.section-icon {
+  padding-top: 50px;
+  font-size: 0.5rem;
+}
+
+.our-partners h4 {
+  font-size: 1rem;
+}
+
+.our-partners h3 {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 1.6rem;
+}
+
+.partners-and-sponsors {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.partnerLogo {
+  padding: 12px;
+}
+
+.partners-list {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+body > footer {
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer .copyright {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+  }
+
+  .width-551 {
+    width: 80%;
+  }
+
+  .flex-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    box-shadow: none;
+  }
+
+  .nav-options li {
+    margin: 10px;
+  }
+
+  .introduction h1 {
+    font-weight: 500;
+    padding-top: 70px;
+    margin: 0 auto 0 10%;
+    font-size: 3rem;
+  }
+
+  .introduction h3 {
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+  }
+
+  .shortNote {
+    font-size: 0.9rem;
+  }
+
+  .dateRange {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+
+  .programDetails article {
+    width: 80%;
+  }
+
+  .totalSpeakers {
+    width: 100%;
+    padding: 10%;
+  }
+
+  .setMargin {
+    margin: 0 0 0 10%;
+  }
+
+  .speakersGroup {
+    width: 100%;
+  }
+
+  .speakerDetails h4 {
+    font-size: 1.2rem;
+  }
+
+  .partners-and-sponsors {
+    font-size: 0.6rem;
+  }
+
+  .section-icon {
+    padding-top: 30px;
+  }
+
+  .partnerLogo {
+    padding: 10px;
+  }
+
+  .partners-list {
+    padding: 0;
+  }
+
+  footer .copyright {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,164 @@
+.aboutIntro {
+  background-image: url(../img/aboutai.jpg);
+  align-content: center;
+}
+
+.aboutIntro h1 {
+  opacity: 0.9;
+  font-weight: 800;
+  padding-top: 70px;
+  font-size: 4rem;
+}
+
+.aboutIntro h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.shortNote {
+  width: 50%;
+  margin: 28px auto;
+  padding: 28px;
+}
+
+.aboutIntro .pleaseContact {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.aboutIntro .emailID {
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 70px;
+  font-weight: 800;
+}
+
+.aboutAI {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.aboutAI .aboutheading {
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+
+.subAbout {
+  border: 0;
+  margin: 10px auto 20px;
+}
+
+.grayLine {
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.aboutAI img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 30%;
+  padding: 10px;
+  border: 1px #d3d3d3 solid;
+}
+
+.previousPrograms {
+  color: #000;
+  align-content: center;
+  padding-bottom: 30px;
+}
+
+.previousPrograms .heading {
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+
+.prePrograms {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 40px;
+}
+
+.prePrograms a {
+  text-decoration: none;
+}
+
+.program-item {
+  height: 200px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+}
+
+.programLink {
+  width: 32%;
+  margin: 1%;
+}
+
+.prePrograms .program1 {
+  background: url(../img/aimeet.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prePrograms .program2 {
+  background: url(../img/speakrs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prePrograms a:hover {
+  border: 1.5px #ec5242 solid;
+  border-radius: 10px;
+}
+
+.layoverOrange {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 121, 106, 0.562);
+  z-index: 1;
+}
+
+.prePrograms article h2 {
+  font-size: 3.5rem;
+}
+
+.programHeading {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutIntro h1 {
+    font-size: 3rem;
+  }
+
+  .aboutIntro h3 {
+    font-size: 1.6rem;
+  }
+
+  .shortNote {
+    width: 80%;
+  }
+
+  .pleaseContact {
+    font-size: 1rem;
+  }
+
+  .programLink {
+    width: 70%;
+  }
+
+  .aboutAI img {
+    margin: 10px auto 10%;
+  }
+}
